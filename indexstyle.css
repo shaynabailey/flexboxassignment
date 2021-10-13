@@ -1,0 +1,109 @@
+html{
+    background-color: #D9AF8B;
+}
+.mainwrapper {
+
+    width: 100%;
+
+    height: 100%;
+
+    text-align: center;
+
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    background-color: #D9AF8B;
+
+}
+
+.navigationbar{
+  
+    top: 5px;
+
+    width: 100%;
+
+    height: 50%;
+
+    position: sticky;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: flex-end;
+    
+    background-color:#BF9673;
+
+}
+
+     .navigationbar ul{
+
+        display: flex;
+
+        text-decoration: none;
+
+        list-style-type: none;
+
+        gap: 4% 4%;
+
+    }
+
+    .navcontainer li {
+    
+        margin-right: 10px;
+
+    }
+
+header {
+
+    width: 100%;
+
+    height: 150px;
+
+    align-content: center;
+
+    background-color: #D9BA5F;
+
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/job545-wit-22_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f304fecde2d0b4784e0e84cb2da36a06'); 
+
+
+}
+
+.articles {
+
+    width: 300px;
+
+    height: 300px;
+
+    display:flex;
+
+    flex-direction: column;
+
+    flex-wrap: wrap;        
+
+    gap: 40% 90%;
+
+    margin: 30px;
+
+    padding-left: 35%;
+
+}
+
+.innerarticles {
+
+    flex: 1 1 00px;
+
+    display: grid;
+    
+    background-color:#734C29;
+    
+    border-radius: 10px;
+    
+    padding: 5px;
+    
+    
+    
+    }
